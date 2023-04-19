@@ -39,17 +39,17 @@ export default function App() {
 
   return (
     <div className="bg-[url('./assets/waves.svg')] w-screen h-screen bg-no-repeat bg-bottom flex justify-center font-pen">
-      <div className="w-11/12 sm:w-2/4 sm:h-2/3 rounded-3xl drop-shadow-2xl flex flex-col  items-center align-middle justify-center sm:bg-slate-100 sm:mt-28">
-        <h1 className="font-extrabold text-3xl sm:text-6xl w-10/12 sm:w-2/3 text-center">
+      <div className="w-11/12 md:w-2/4 md:h-2/3 rounded-3xl drop-shadow-2xl flex flex-col  items-center align-middle justify-center md:bg-white md:mt-28">
+        <h1 className="font-extrabold text-3xl md:text-6xl w-10/12 md:w-2/3 text-center">
           Surfin' the Code Wave: Understanding Error Codes, Bro!
         </h1>
-        <h2 className="w-full sm:w-11/12 text-3xl py-2 ">
+        <h2 className="w-full md:w-11/12 text-3xl py-2 ">
           Dude, sometimes when you're ridin' the coding wave, you might wipeout
           and run into some error codes, man. But don't stress, bro! Just like a
           gnarly wave, those error codes are just signals from your code tellin'
           ya that somethin's not quite right, ya know?
         </h2>
-        <h2 className="w-full sm:w-11/12 text-3xl py-2">
+        <h2 className="w-full md:w-11/12 text-3xl py-2">
           But here's the deal, bro: just like when you're shreddin' the waves,
           you gotta understand those signals to get back on your board and ride
           the code wave again, dude! So, let's get into it and decode those
@@ -83,7 +83,7 @@ export default function App() {
                   </div>
                 ) : (
                   <div className="flex justify-center items-center h-5/6">
-                    <p className="my-4 text-slate-900 text-2xl sm:text-3xl sm:leading-relaxed overflow-scroll">
+                    <p className="my-4 text-slate-900 text-2xl md:text-3xl md:leading-relaxed">
                       {solvedText}
                     </p>
                   </div>
