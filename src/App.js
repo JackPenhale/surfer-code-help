@@ -39,7 +39,7 @@ export default function App() {
 
   return (
     <div className="bg-[url('./assets/waves.svg')] w-screen h-screen bg-no-repeat bg-bottom flex justify-center font-pen">
-      <div className="w-11/12 sm:w-3/4 sm:h-2/3 rounded-3xl drop-shadow-2xl flex flex-col  items-center align-middle justify-center ">
+      <div className="w-11/12 sm:w-2/4 sm:h-2/3 rounded-3xl drop-shadow-2xl flex flex-col  items-center align-middle justify-center sm:bg-slate-100 sm:mt-28">
         <h1 className="font-extrabold text-3xl sm:text-6xl w-10/12 sm:w-2/3 text-center">
           Surfin' the Code Wave: Understanding Error Codes, Bro!
         </h1>
@@ -57,7 +57,7 @@ export default function App() {
         </h2>
         <div className="relative w-11/12 md:w-2/3 mt-12">
           <input
-            className="bg-white rounded-lg h-14 w-full z-30 md:text-center focus:outline-none pl-7 md:pl-0 text-2xl"
+            className="bg-white rounded-lg h-14 w-full z-30 md:text-center focus:outline-none pl-7 md:pl-0 text-2xl drop-shadow-xl"
             onChange={(e) => setInput(e.target.value)}
             placeholder="Paste that gnarly error here bro"
             onKeyDown={handleKeydown}
